@@ -1,6 +1,6 @@
 alx-maze_project
 This is the alternative 'Maze project' for the 'Research & Project approval (Part 1)' project in the ALX Software Engineering program.
-![Project Screenshot](/alx-maze_projects/screenshots/textured_1.png/
+![Project Screenshot](/alx-maze_projects/screenshots/textured_1.png/)
 Maze project
 Background Context
 The goal of this project is to create a game in 3D using raycasting !
