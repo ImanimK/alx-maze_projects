@@ -18,37 +18,43 @@
     </header>
 
     <section id="intro">
-        <img src="Banner.jpg" alt="3D Maze Game Cover Image" class="cover-image">
-        <h1>3D Maze Game</h1>
-        <p>Navigate through a thrilling 3D maze with raycasting technology.</p>
-        <a href="deployed_project_link" class="btn">Play Now</a>
+        <div class="intro-content">
+            <img src="Banner.jpg" alt="3D Maze Game Cover Image" class="cover-image">
+            <h1>3D Maze Game</h1>
+            <p>Navigate through a thrilling 3D maze with raycasting technology.</p>
+            <a href="deployed_project_link" class="btn">Play Now</a>
+        </div>
     </section>
 
     <section id="features">
         <h2>Key Features</h2>
         <div class="feature">
             <img src="feature1.jpg" alt="Controls">
-            <h3>Controls</h3>
-            <p>
-                W : move forward<br>
-                S : move backward<br>
-                A : rotate camera left<br>
-                D : rotate camera right<br>
-                Q : strafe left<br>
-                E : strafe right<br>
-                F : toggle fullscreen<br>
-                ESC : quit
-            </p>
+            <div class="feature-text">
+                <h3>Controls</h3>
+                <p>
+                    W : move forward<br>
+                    S : move backward<br>
+                    A : rotate camera left<br>
+                    D : rotate camera right<br>
+                    Q : strafe left<br>
+                    E : strafe right<br>
+                    F : toggle fullscreen<br>
+                    ESC : quit
+                </p>
+            </div>
         </div>
         <div class="feature">
             <img src="feature2.jpg" alt="Compilation">
-            <h3>How to Compile and Run</h3>
-            <p>
-                SDL2 and SDL2_image are required to compile and use this program.<br>
-                Compile with gcc 4.8.4 with the following flags: gcc -O2 -g -Wall -Werror -Wextra -pedantic -Isrc/headers *.c -lSDL2 -lSDL2_image -lm -o maze `sdl2-config --cflags --libs` OR make -f Makefile<br>
-                Run the maze: ./maze or ./maze maps/&lt;map_name&gt;<br>
-                Disable textures: ./maze no_tex or ./maze maps/&lt;map_name&gt; no_tex
-            </p>
+            <div class="feature-text">
+                <h3>How to Compile and Run</h3>
+                <p>
+                    SDL2 and SDL2_image are required to compile and use this program.<br>
+                    Compile with gcc 4.8.4 with the following flags: gcc -O2 -g -Wall -Werror -Wextra -pedantic -Isrc/headers *.c -lSDL2 -lSDL2_image -lm -o maze `sdl2-config --cflags --libs` OR make -f Makefile<br>
+                    Run the maze: ./maze or ./maze maps/&lt;map_name&gt;<br>
+                    Disable textures: ./maze no_tex or ./maze maps/&lt;map_name&gt; no_tex
+                </p>
+            </div>
         </div>
     </section>
 
