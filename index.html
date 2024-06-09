@@ -1,24 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="abstract-background-with-bright-3d-maze-for-desktop-screensaver-poster-or-banner-vector.jpg">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Raycasting Maze Project</title>
-    <link rel="stylesheet" href="style.css">
+    <title>3D Maze Game</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Raycasting Maze Project</h1>
-    <p>Explore a 3D maze built with raycasting techniques!</p>
-    <img src="textured_2.png" alt="Screenshot of the raycasting maze">
-    <h2>Features:</h2>
-    <ul>
-        <li>Raycasting Engine for 3D visuals</li>
-        <li>Player movement with WASD keys</li>
-        <li>2D Maze Representation (textures optional)</li>
-    </ul>
-    <p>This project is a deep dive into raycasting algorithms and game development. Check out the code on GitHub!</p>
-    <a href="https://github.com/ImanimK/alx-maze_projects">Project Repository</a>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#intro">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="intro">
+        <img src="3Dzz).jpg" alt="3D Maze Game Cover Image" class="cover-image">
+        <h1>3D Maze Game</h1>
+        <p>Navigate through a thrilling 3D maze with raycasting technology.</p>
+        <a href="deployed_project_link" class="btn">Play Now</a>
+    </section>
+
+    <section id="features">
+        <h2>Key Features</h2>
+        <div class="feature">
+            <img src="feature1.jpg" alt="Controls">
+            <h3>Controls</h3>
+            <p>
+                W : move forward<br>
+                S : move backward<br>
+                A : rotate camera left<br>
+                D : rotate camera right<br>
+                Q : strafe left<br>
+                E : strafe right<br>
+                F : toggle fullscreen<br>
+                ESC : quit
+            </p>
+        </div>
+        <div class="feature">
+            <img src="feature2.jpg" alt="Compilation">
+            <h3>How to Compile and Run</h3>
+            <p>
+                SDL2 and SDL2_image are required to compile and use this program.<br>
+                Compile with gcc 4.8.4 with the following flags: gcc -O2 -g -Wall -Werror -Wextra -pedantic -Isrc/headers *.c -lSDL2 -lSDL2_image -lm -o maze `sdl2-config --cflags --libs` OR make -f Makefile<br>
+                Run the maze: ./maze or ./maze maps/&lt;map_name&gt;<br>
+                Disable textures: ./maze no_tex or ./maze maps/&lt;map_name&gt; no_tex
+            </p>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About the Project</h2>
+        <p>
+            This project was inspired by my love for classic 3D games and a desire to recreate the magic of navigating through mazes with modern raycasting technology. It began as a portfolio project for Holberton School.
+        </p>
+        <p>
+            <a href="https://www.linkedin.com/in/imanimk">LinkedIn</a> |
+            <a href="https://github.com/imanimk">GitHub</a> |
+            <a href="https://twitter.com/imanimking">Twitter</a>
+        </p>
+        <p>
+            <a href="https://github.com/ImanimK/alx-maze_projects">GitHub Repository</a>
+        </p>
+    </section>
 </body>
 </html>
 
